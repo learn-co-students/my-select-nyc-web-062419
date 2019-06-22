@@ -5,7 +5,6 @@ def my_select(array)
         if yield array[i]
             newarray.push(array[i])
         end
-        puts newarray[i]
         i = i + 1
     end
 return newarray
